@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">score</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="_1goal">+1Goal</string>
+    <string name="_0">0</string>
+    <string name="_1foul">+1Foul</string>
+    <string name="Reset">Reset</string>
+</resources>

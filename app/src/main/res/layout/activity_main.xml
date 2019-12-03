@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/team_1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/editGoal_1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/_0"
+
+            android:text="@string/_0"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="updateTeamAGoals"
+            android:text="@string/_1goal"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/editFoul_1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/_0"
+            android:text="@string/_0"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="updateTeamAFouls"
+            android:text="@string/_1foul"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/team_2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/editGoal_2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/_0"
+
+            android:text="@string/_0"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="updateTeamBGoals"
+            android:text="@string/_1goal"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/editFoul_2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/_0"
+            android:text="@string/_0"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="updateTeamBFouls"
+            android:text="@string/_1foul"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#1a5e8c"
+            android:onClick="reset"
+            android:text="@string/Reset"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
